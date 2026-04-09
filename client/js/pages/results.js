@@ -75,7 +75,7 @@ window.ResultsPage = {
               <!-- Throttle Slider (Vertical) -->
               <div style="display: flex; flex-direction: column; align-items: center; width: 60px; background: rgba(0,0,0,0.3); border-radius: 30px; padding: 20px 0;">
                 <div id="throttle-val" style="font-family: var(--font-mono); font-weight: 700; margin-bottom: 15px;">100%</div>
-                <input type="range" id="inp-throttle" min="0" max="100" value="100" orient="vertical" style="appearance: slider-vertical; flex: 1; width: 8px; cursor: pointer;">
+                <input type="range" id="inp-throttle" min="0" max="100" value="100" orient="vertical" style="-webkit-appearance: slider-vertical; flex: 1; width: 8px; cursor: pointer;">
               </div>
 
               <!-- Drone Animation Container -->
