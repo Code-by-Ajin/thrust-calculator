@@ -1,7 +1,10 @@
 require('dotenv').config();
 const express  = require('express');
 const mongoose = require('mongoose');
-const cors     = require('cors');
+const cors = require('cors');
+app.use(cors({
+  origin: "https://thrust-calculator.vercel.app" // Put your actual Vercel URL here
+}));
 const morgan   = require('morgan');
 
 const app  = express();
